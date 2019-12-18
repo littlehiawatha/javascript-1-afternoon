@@ -1,7 +1,7 @@
 //////////////////PROBLEM 1////////////////////
 
 //Create a variable called myName that is a string data type
-
+let myName = 'Jacob'
 //Code here
 
 //////////////////PROBLEM 2////////////////////
