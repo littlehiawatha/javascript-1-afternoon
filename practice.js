@@ -41,8 +41,11 @@ let devMountainGoal = null;
 //plus the value of the name parameter.
 
 //Code here
+
+
 function greeting (name) {
-  return ("Hello," + name)
+  
+  return ("Hello, "+ name)
 }
 
 
@@ -53,12 +56,18 @@ function greeting (name) {
 
 //Code Here
 
+newGreeting = function (name) {
+  return ("Hello, " + name)
+}
+
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+
+let groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -69,10 +78,15 @@ function greeting (name) {
 
 //Code Here
 
+
+var dog = {name: 'Fido', color: 'black', age: 3, goodBoy: true};
+
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
+
+let devMountainClassPet = dog.name
 
 //////////////////PROBLEM 10////////////////////
 
